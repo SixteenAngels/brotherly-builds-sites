@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import MaintenanceSlider from "@/components/MaintenanceSlider";
 
 const Hero = () => {
   return (
@@ -54,6 +55,8 @@ const Hero = () => {
               <p className="text-sandstone">Client Satisfaction</p>
             </div>
           </div>
+          
+          <MaintenanceSlider />
         </div>
       </div>
     </section>

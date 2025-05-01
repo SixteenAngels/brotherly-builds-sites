@@ -7,7 +7,8 @@ import Projects from "@/components/Projects";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import { useToast } from "@/components/ui/use-toast";
+import MaintenanceCard from "@/components/MaintenanceCard";
+import { useToast } from "@/hooks/use-toast";
 import { useEffect } from "react";
 
 const Index = () => {
@@ -33,6 +34,7 @@ const Index = () => {
         <Contact />
       </main>
       <Footer />
+      <MaintenanceCard />
     </div>
   );
 };
