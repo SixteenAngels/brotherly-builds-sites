@@ -1,3 +1,4 @@
+
 import { Building, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
@@ -9,7 +10,7 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-4">
               <Building className="h-8 w-8 text-terracotta" />
               <span className="text-2xl font-heading font-bold">
-                BROTHERS<span className="text-terracotta">BUILT</span>
+                HOLTS<span className="text-terracotta">BROTHER</span>
               </span>
             </div>
             <p className="text-sandstone mb-6">
@@ -68,7 +69,7 @@ const Footer = () => {
         
         <div className="pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sandstone text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Brothers Built Construction. All rights reserved.
+            &copy; {new Date().getFullYear()} Holts Brother Construction. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-sandstone hover:text-terracotta text-sm">Privacy Policy</a>

@@ -27,8 +27,8 @@ const Navbar = () => {
           <a href="#" className="flex items-center gap-2">
             <Building className="h-8 w-8 text-terracotta" />
             <span className="text-2xl font-heading font-bold text-navy">
-              BROTHERS
-              <span className="text-terracotta">BUILT</span>
+              HOLTS
+              <span className="text-terracotta">BROTHER</span>
             </span>
           </a>
           
