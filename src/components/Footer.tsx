@@ -1,4 +1,3 @@
-
 import { Building, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
@@ -57,10 +56,10 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-lg mb-4 text-gold">Contact</h3>
             <ul className="space-y-2">
-              <li className="text-sandstone">123 Construction Way</li>
-              <li className="text-sandstone">Builder City, BC 12345</li>
-              <li className="text-sandstone">Phone: (555) 123-4567</li>
-              <li className="text-sandstone">Email: info@brothersbuilt.com</li>
+              <li className="text-sandstone">4908 Birkenhead Ct</li>
+              <li className="text-sandstone">Apex, NC 27539</li>
+              <li className="text-sandstone">Phone: (561) 295-1110</li>
+              <li className="text-sandstone">Email: info@holtbrotherscon.com</li>
             </ul>
           </div>
         </div>

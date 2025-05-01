@@ -32,7 +32,7 @@ const MaintenanceCard = () => {
             </div>
             <div className="flex flex-col">
               <span className="font-semibold text-gold">Email:</span>
-              <span>joshua.c.holt@holtbrotherscon.com</span>
+              <span>info@holtbrotherscon.com</span>
             </div>
             <div className="flex flex-col">
               <span className="font-semibold text-gold">Address:</span>

@@ -63,7 +63,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-navy">Our Office</h3>
-                  <p className="text-gray-600">123 Construction Way, Builder City, BC 12345</p>
+                  <p className="text-gray-600">4908 Birkenhead Ct, Apex, NC 27539</p>
                 </div>
               </div>
               
@@ -73,7 +73,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-navy">Phone</h3>
-                  <p className="text-gray-600">(555) 123-4567</p>
+                  <p className="text-gray-600">(561) 295-1110</p>
                 </div>
               </div>
               
@@ -83,7 +83,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-bold text-navy">Email</h3>
-                  <p className="text-gray-600">info@brothersbuilt.com</p>
+                  <p className="text-gray-600">info@holtbrotherscon.com</p>
                 </div>
               </div>
               
