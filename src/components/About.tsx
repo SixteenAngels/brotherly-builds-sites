@@ -3,6 +3,9 @@ import { cn } from "@/lib/utils";
 import { Building, HardHat, Wrench } from "lucide-react";
 
 const About = () => {
+  // Calculate current years of experience
+  const yearsOfExperience = new Date().getFullYear() - 2015;
+  
   return (
     <section id="about" className="section-padding bg-white">
       <div className="container-wide">
@@ -16,7 +19,7 @@ const About = () => {
               />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-terracotta text-white p-6 rounded-lg shadow-lg md:max-w-[200px] hidden md:block">
-              <p className="font-bold text-xl">Family Owned Since 1998</p>
+              <p className="font-bold text-xl">Family Owned Since 2015</p>
             </div>
           </div>
           
@@ -27,7 +30,7 @@ const About = () => {
             </h2>
             
             <p className="text-gray-700 mb-6">
-              Brothers Built was founded in 1998 by siblings Mike and John Thompson, who shared a passion for construction passed down from their father. What started as a small residential renovation business has grown into one of the region's most trusted construction companies.
+              Brothers Built was founded in 2015 by siblings Mike and John Thompson, who shared a passion for construction passed down from their father. What started as a small residential renovation business has grown into one of the region's most trusted construction companies.
             </p>
             
             <p className="text-gray-700 mb-8">
@@ -40,7 +43,7 @@ const About = () => {
                   <HardHat className="text-gold w-6 h-6" />
                 </div>
                 <h3 className="font-bold text-navy">Expert Team</h3>
-                <p className="text-gray-600 text-sm">Skilled professionals with decades of experience</p>
+                <p className="text-gray-600 text-sm">Skilled professionals with {yearsOfExperience}+ years of experience</p>
               </div>
               
               <div className="bg-offwhite p-5 rounded-lg">

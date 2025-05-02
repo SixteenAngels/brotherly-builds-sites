@@ -4,6 +4,9 @@ import { cn } from "@/lib/utils";
 import MaintenanceSlider from "@/components/MaintenanceSlider";
 
 const Hero = () => {
+  // Calculate current years of experience
+  const yearsOfExperience = new Date().getFullYear() - 2015;
+  
   return (
     <section
       id="home"
@@ -43,7 +46,7 @@ const Hero = () => {
           </div>
           <div className="mt-12 flex gap-8">
             <div>
-              <p className="text-4xl font-bold text-gold">25+</p>
+              <p className="text-4xl font-bold text-gold">{yearsOfExperience}+</p>
               <p className="text-sandstone">Years Experience</p>
             </div>
             <div>
